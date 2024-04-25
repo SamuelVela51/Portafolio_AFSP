@@ -1,0 +1,257 @@
+.imglogo{
+    width: 60px;
+    height: 60px;
+    margin-left: 23px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    animation-timeline: scroll();
+    animation-range: 0 200 px;
+    z-index: 10;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+}
+.navbar ul h1{
+    font-size: 33px;
+    
+    font-weight: bold;
+}
+h1::first-letter{
+    color: #FC6700;
+}
+.mifoto{
+    background-color: gray;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 13px 5px gray;
+}
+.sub1{
+    color: #FC6700;
+    text-align: center;
+    font-weight: bold;
+}
+.sub2{
+    font-size: 25px;
+    color: #040807;
+    text-align: center;
+}
+.sobremi{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 25px;
+}
+.articulo1{
+    text-align: center;
+}
+.p1{
+    font-size: 18px;
+    text-align: wrap;
+    flex: 0; 
+    width: 1000px; 
+}
+.skills{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;   
+}
+.mifoto2{
+    background-color: gray;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 1px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 13px 5px #777777;
+}
+.subtitulo{
+    color: #FC6700;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p{
+    width: 500px;
+    line-height: 2;
+    font-size: 20px;
+}
+.titulo{
+    color: #FC6700;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px;
+}
+.habilidades{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 25px;
+    display: grid;
+    grid-template-areas:
+    "html css js"
+    ;
+    justify-content: space-evenly;
+}
+.html{
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 3px gray;
+}
+.css{
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 3px gray;
+}
+.js{
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 3px gray;
+}
+.resolucion{    
+    display: grid;
+    place-items: center;
+    height: 250px; 
+}
+.imghabilidades{
+    height: 200px;
+    width: 175px;
+}
+.descripcion{
+    text-align: center;
+}
+.nomherhtml{
+    color: #E34F26;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nomhercss{
+    color: #1572B6;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nomherjs{
+    color: #F7E025;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contacto{
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 40px;
+    width: 55%;  
+    box-shadow: 0px 0px 7px 3px gray;
+    border-radius: 15px;
+}
+.form{
+    width: 400px;
+    padding: 7px;
+    margin-left: 25px;
+}
+.til{
+    color: #FC6700;
+    font-size: 30px;
+}
+.funciones{
+    margin-top: 10px;
+}
+.ingresar{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+}
+.ingresar:focus{
+    background: linear-gradient(to bottom, transparent, rgb(207, 207, 207));
+    outline: none;
+    border-bottom: 3px solid gray;
+}
+.imgcart{
+    
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 100%;
+}
+.cartita{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+.form textarea{
+    min-height: 100px;
+    resize: none;
+}
+.enviar{
+    margin-top: 10px;
+    background-color: white;
+    color: #FC6700;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.enviar:focus{
+    background-color: #FC6700;
+    color: white;
+    border: 2px solid black;
+}
+.ingresar::placeholder{
+    color: rgb(88, 88, 88);
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imgredes{
+    box-shadow: 0px 0px 7px 3px gray;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;    
+}
+.piedepagina{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
